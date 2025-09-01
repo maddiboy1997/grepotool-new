@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Units</class>
+ <widget class="QWidget" name="Units">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>329</width>
+    <height>184</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QToolButton" name="_slow">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/big_transporter.png</normaloff>:/icons/big_transporter.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QToolButton" name="_biri">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/bireme.png</normaloff>:/icons/bireme.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QToolButton" name="_fire">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/attack_ship.png</normaloff>:/icons/attack_ship.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QToolButton" name="_brander">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/demolition_ship.png</normaloff>:/icons/demolition_ship.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="4">
+    <widget class="QToolButton" name="_fast">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/small_transporter.png</normaloff>:/icons/small_transporter.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="5">
+    <widget class="QToolButton" name="_trireme">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/trireme.png</normaloff>:/icons/trireme.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="6">
+    <widget class="QToolButton" name="_kolo">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/colonize_ship.png</normaloff>:/icons/colonize_ship.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QToolButton" name="_sword">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/sword.png</normaloff>:/icons/sword.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QToolButton" name="_slinger">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/slinger.png</normaloff>:/icons/slinger.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QToolButton" name="_archer">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/archer.png</normaloff>:/icons/archer.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QToolButton" name="_hoplite">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/hoplite.png</normaloff>:/icons/hoplite.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <widget class="QToolButton" name="_rider">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/rider.png</normaloff>:/icons/rider.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="5">
+    <widget class="QToolButton" name="_chariot">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/chariot.png</normaloff>:/icons/chariot.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="6">
+    <widget class="QToolButton" name="_catapult">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/catapult.png</normaloff>:/icons/catapult.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QToolButton" name="_godsent">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/godsent.png</normaloff>:/icons/godsent.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="6">
+    <widget class="QToolButton" name="_griffin">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/griffin.png</normaloff>:/icons/griffin.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="6">
+    <widget class="QToolButton" name="_boar">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/calydonian_boar.png</normaloff>:/icons/calydonian_boar.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="5">
+    <widget class="QToolButton" name="_cerberus">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/cerberus.png</normaloff>:/icons/cerberus.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="4">
+    <widget class="QToolButton" name="_centaur">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/centaur.png</normaloff>:/icons/centaur.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="QToolButton" name="_medusa">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/medusa.png</normaloff>:/icons/medusa.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QToolButton" name="_minotaur">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/minotaur.png</normaloff>:/icons/minotaur.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="QToolButton" name="_zyklop">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/zyklop.png</normaloff>:/icons/zyklop.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QToolButton" name="_manti">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/manticore.png</normaloff>:/icons/manticore.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="5">
+    <widget class="QToolButton" name="_fury">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/fury.png</normaloff>:/icons/fury.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="4">
+    <widget class="QToolButton" name="_pega">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/pegasus.png</normaloff>:/icons/pegasus.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QToolButton" name="_harpy">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/harpy.png</normaloff>:/icons/harpy.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="3">
+    <widget class="QToolButton" name="_hydra">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/hydra.png</normaloff>:/icons/hydra.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="grepotool.qrc"/>
+ </resources>
+ <connections/>
+</ui>

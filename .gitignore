@@ -1,0 +1,23 @@
+# VS/Build/Temp
+.vs/
+bin/
+obj/
+out/
+build/
+CMakeFiles/
+CMakeCache.txt
+*.user
+*.suo
+*.ipch
+*.pdb
+*.ilk
+*.log
+
+# Binaries
+*.exe
+*.dll
+*.lib
+*.exp
+
+# VS Code
+.vscode/

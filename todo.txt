@@ -1,0 +1,25 @@
+==============================================================================
+                              TODO FOR GREPOTOOL
+==============================================================================
+- Umstellen der Tabellen auf Model - View
+
+Wunschliste:
+- Alle Spieler der Welt in einer Liste
+- Ausgewählten Spieler hervorheben
+- taktisches Display (Symbol statt kreis?)
+- GS in der nähe finden
+- überlappende Ally-Label vermeiden
+- Sprachenauswahl
+
+- tooltipp bei Town specials
+
+
+
+Allgemein:
+- Auto-Updater:
+-    Grepotool.exe = Loader & Updater
+-    Grepotool.dll 
+- Übersetzungen
+- Mehrere Instanzen vermeiden
+
+  

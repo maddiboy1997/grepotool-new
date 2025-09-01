@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Specials</class>
+ <widget class="QWidget" name="Specials">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>188</width>
+    <height>46</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QToolButton" name="_meteorology">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/meteorology.png</normaloff>:/icons/meteorology.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QToolButton" name="_cartography">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/cartography.png</normaloff>:/icons/cartography.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="2">
+    <widget class="QToolButton" name="_movement_boost">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/movement_boost.gif</normaloff>:/icons/movement_boost.gif</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QToolButton" name="_lighthouse">
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="grepotool.qrc">
+       <normaloff>:/icons/lighthouse.png</normaloff>:/icons/lighthouse.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>40</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+     <property name="autoRaise">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="grepotool.qrc"/>
+ </resources>
+ <connections/>
+</ui>
